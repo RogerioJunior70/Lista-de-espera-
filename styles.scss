@@ -1,0 +1,29 @@
+// Definição de variáveis
+$cor-primaria: #007bff; // Define a cor primária
+
+// Estilos para a página
+body {
+    font-family: Arial, sans-serif; // Define a fonte do corpo do texto
+    margin: 0; // Remove margens
+    padding: 0; // Remove padding
+}
+
+.container {
+    max-width: 600px; // Define a largura máxima do contêiner
+    margin: 50px auto; // Centraliza o contêiner horizontalmente
+    text-align: center; // Centraliza o texto dentro do contêiner
+}
+
+button {
+    background-color: $cor-primaria; // Define a cor de fundo do botão
+    color: white; // Define a cor do texto do botão
+    padding: 10px 20px; // Define o preenchimento do botão
+    border: none; // Remove a borda do botão
+    border-radius: 5px; // Adiciona borda arredondada ao botão
+    cursor: pointer; // Altera o cursor ao passar sobre o botão
+}
+
+button:hover {
+    background-color: darken($cor-primaria, 10%); // Define a cor de fundo do botão ao passar o mouse sobre ele
+}
+
